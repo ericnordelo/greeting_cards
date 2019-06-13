@@ -28,3 +28,5 @@ end
 
 
 Spree.user_class = "Spree::User"
+
+Spree::PermittedAttributes.checkout_attributes << :destinatary_email

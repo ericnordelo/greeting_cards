@@ -30,4 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  spree:
+    order_state:
+      select_destinatary: Select Destinatary
+      destinatary_email: Destinatary Email
