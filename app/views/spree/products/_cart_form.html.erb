@@ -47,7 +47,7 @@
             <br />
             <span class="out-of-stock"><%= Spree.t(:out_of_stock) %></span>
           <% end %>
-          <% if @product.backordered? %>
+          <% if false && @product.backordered? %>
             <div class="alert alert-warning" id="cart-backordered-info">
               <%= Spree.t(:backordered_info) %>
             </div>
