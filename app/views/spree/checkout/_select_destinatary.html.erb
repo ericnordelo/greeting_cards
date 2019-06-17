@@ -1,6 +1,6 @@
 <div class="panel panel-default" id='shipping_method' data-hook>
   <div class="panel-heading">
-    <h3 class="panel-title"><%= Spree.t(:select_destinatary) %></h3>
+    <h3 class="panel-title"><%= Spree.t(:select_destinatary) + ' ' + (@order.user.free_cards > 0 ? '(You don\'t have to pay for this order because of your subscription)' : '') %></h3>
   </div>
   <div class="panel-body" data-hook="shipping_method_inner">
     <div id="methods">
