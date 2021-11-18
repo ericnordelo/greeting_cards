@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'spree', '~> 3.7.0'
-gem 'spree_auth_devise', '~> 3.5'
+gem 'spree_auth_devise', '~> 4.0'
 gem 'spree_gateway', '~> 3.4'
 
 gem 'spree_account_recurring', github: 'vinsol-spree-contrib/spree-account-recurring',  branch: 'master'
